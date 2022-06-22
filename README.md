@@ -1,1 +1,1 @@
-My third readme
+About bash projects
