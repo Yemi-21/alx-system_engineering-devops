@@ -1,2 +1,2 @@
 #!/bin/bash
-printf %xn $DECIMA
+printf n%xn $DECIMAL
