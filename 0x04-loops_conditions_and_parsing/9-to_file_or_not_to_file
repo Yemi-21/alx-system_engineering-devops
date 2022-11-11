@@ -1,19 +1,18 @@
 #!/usr/bin/env bash
-# This script is displaying "School" 10 times
+# This script is displaying "school" 10 times
+
 file="school"
-if [ ! -e $school ];
+if [ ! -e $file ];
 then
-	echo "$school file does not exist"
+		echo "$file file does not exist"
+ else
+ echo "$file file exists"
+if [ ! -s $file ];
+then
+echo "$file file is empty"
 else
-	echo "$school file exists"
-	if [ ! -s $school];
-	then
-		echo "$school file is empty"
-	else
-		echo "$school file is not empty"
-	fi
-	if [ -f $school ];
-	then
-		echo "school is a regular file"
-	fi
+echo "$file file is not empty"
+fi
+if [ -f $file ]																	then																	echo "school is a regular file"
+ fi
 fi
