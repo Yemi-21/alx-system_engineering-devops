@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # Fixes Ngnix server
 
 new_string="listen 80 default_server;"
